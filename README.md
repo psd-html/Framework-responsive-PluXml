@@ -1,7 +1,7 @@
 Framework responsive PluXml
 =========
 
-Le framework n'utilise pas de js, il est ultra light moins de 7ko pour le fichier style.css
+Le framework n'utilise pas de js, moins de 7ko pour le fichier style.css
 
 Le dossier contient:
 
