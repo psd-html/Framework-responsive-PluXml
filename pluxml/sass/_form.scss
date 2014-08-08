@@ -31,8 +31,12 @@ input[type='text'], textarea{
     width: 60%!important;
     height: 36px!important;
     
-}
+    @include transition-duration(1s);
 
+}
+input[type='text']:hover, textarea:hover{
+    border: 1px solid #000;
+}
 textarea{
     height: 150px!important;
     resize: none;
@@ -51,6 +55,7 @@ input[type='submit'] {
 
     padding: 10px;
     text-decoration: none;
+   
 }
 input[type='submit']:hover {
     
