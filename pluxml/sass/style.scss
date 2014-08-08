@@ -1,0 +1,29 @@
+/* Reset et importation des mixins CSS */
+@import "compass/css3";
+@import "compass/reset";
+
+* {
+  @include box-sizing(border-box);
+}
+
+
+
+/* Largeur, espace entre les blocs et nombre de blocs */
+$wrap: 1160px;
+$gutter: 20px;
+$bloc: 12;
+$max-width: 960px;
+$police: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+$primaire: #666;
+$secondaire: lighten($primaire, 10%);
+
+
+/* importer les éléments du style */
+@import "fonts";
+@import "header";
+@import "body";
+@import "sidebar";
+@import "form";
+@import "footer";
+@import "grid";

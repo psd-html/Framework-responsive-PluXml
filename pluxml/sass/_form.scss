@@ -1,0 +1,64 @@
+
+/* reset */
+
+input, textarea{
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+/* style des formualires et des boutons */
+
+label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+input[type='text'], textarea{
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    
+    @include border-radius (4px);
+    @include box-shadow (0 1px 1px rgba(0, 0, 0, 0.075) inset);
+
+    color: #555;
+    font-size: 15px;
+
+    padding: 6px 12px!important;
+    width: 60%!important;
+    height: 36px!important;
+    
+}
+
+textarea{
+    height: 150px!important;
+    resize: none;
+}
+input.capcha{
+    width: 60px;
+}
+input[type='submit'] {
+    background: $primaire;    
+
+    @include border-radius(5px);
+    
+    color: #fff;
+
+    font-size: 18px;
+
+    padding: 10px;
+    text-decoration: none;
+}
+input[type='submit']:hover {
+    
+    padding: 11px;
+    
+    background: none;
+    border: 1px solid $primaire;
+    color: $primaire;
+    
+    cursor: pointer;
+}

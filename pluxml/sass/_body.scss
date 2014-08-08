@@ -1,0 +1,31 @@
+/* style du template */
+
+body{
+    font: $police;
+    font-size: 16px;
+    color: $primaire;
+}
+
+/* header du site avec la navigation */
+header{
+   padding: 30px 0 
+}
+
+/* mise en page des articles du blog avec la class .blog */
+article .blog{
+    padding: 0 0 30px 0
+}
+
+/* mise en page du bloc droit avec la class .widget */
+aside .widget{
+    padding: 0 0 30px 0;
+    h3{
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+}
+
+/* mise en page du footer, bas de page */
+footer {
+    padding: 30px 0
+}

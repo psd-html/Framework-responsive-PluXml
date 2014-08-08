@@ -1,0 +1,61 @@
+/* mise en forme de la police à utliser */
+@font-face {
+    font-family: 'web_symbolsregular';
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#web_symbolsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+span.symbol{
+    font-family: 'web_symbolsregular';
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 200%; 
+    line-height: 2em;
+    color: $primaire; 
+    }
+
+h2 {
+    font-size: 150%; 
+    line-height: 1.5em;
+    color: $primaire; 
+    }
+
+h3{
+    font-size: 120%;
+    line-height: 1.2em;
+    color: $primaire;
+    }
+
+p{
+    color: black; 
+    margin-bottom: 20px;
+    }
+ul,li,td{
+    line-height: 1.5em;
+} 
+a:link {
+    color: $primaire;
+    }
+
+a:visited {
+    color: $primaire;
+    }
+
+a:hover {
+    color: $primaire;
+    }
+
+a:active, a:focus {
+    color: $primaire;
+    }

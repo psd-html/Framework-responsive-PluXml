@@ -1,0 +1,25 @@
+/* bloc header */
+
+header{
+   .nav {position: relative;margin: 20px 0;
+      ul li.navigation {
+            display: none
+      } 
+       
+      ul {
+            margin: 0;padding: 0
+      }
+      li {
+            margin: 0 5px 10px 0;
+            padding: 0;
+            list-style: none;
+            display: inline-block;
+      } 
+      a {
+            padding: 3px 12px;
+            text-decoration: none;
+            line-height: 100%;
+    } 
+   } 
+    
+}
