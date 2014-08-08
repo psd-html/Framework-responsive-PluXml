@@ -8,7 +8,7 @@ Le dossier contient:
   - Un dossier SASS pour editer facilement le style.css
   - Utilisation d'une grille responsive et d'une navigation
   - Fichier full-width pour la page article et page statique
-  - Utlisation de la police Web symbol 
+  - Utlisation de la police Web symbols 
   - Maquette HTML5 et CSS3 validation W3C
 
 
