@@ -48,6 +48,6 @@ $secondaire: lighten($primaire, 10%);
 @import "grid";
 ```
 
-
+Maquette visible à cette adresse: http://psd-html.fr/pluxml/
 
 N'hésitez pas à me contacter sur http://psd-html.fr
