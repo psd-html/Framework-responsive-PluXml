@@ -81,33 +81,39 @@ span.symbol {
 }
 
 a {
+  font-size: 15.4px;
+  line-height: 16.8px;
   text-decoration: none;
 }
 
-h1 {
-  font-size: 200%;
-  line-height: 2em;
-  color: #666666;
+h1, h1 > a {
+  font-size: 28px;
+  line-height: 30.8px;
 }
 
 h2 {
-  font-size: 150%;
-  line-height: 1.5em;
-  color: #666666;
+  font-size: 22.4px;
+  line-height: 25.2px;
 }
 
 h3 {
-  font-size: 120%;
-  line-height: 1.2em;
-  color: #666666;
+  font-size: 19.6px;
+  line-height: 22.4px;
+}
+
+h5 {
+  font-size: 16.8px;
+  line-height: 19.6px;
 }
 
 p {
-  color: black;
+  font-size: 15.4px;
+  line-height: 16.8px;
   margin-bottom: 20px;
 }
 
 ul, li, td {
+  font-size: 1.1rem;
   line-height: 1.5em;
 }
 
@@ -125,6 +131,24 @@ a:hover {
 
 a:active, a:focus {
   color: #666666;
+}
+
+blockquote {
+  border-left: 10px solid #666666;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+blockquote p {
+  display: inline;
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
 /* bloc header */
@@ -146,15 +170,20 @@ header .nav li {
   display: inline-block;
 }
 header .nav a {
+  font-size: 19.6px;
   padding: 3px 12px;
   text-decoration: none;
   line-height: 100%;
 }
 
 /* style du template */
+html {
+  font-size: 14px;
+}
+
 body {
   font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: #666666;
 }
 
@@ -370,14 +399,14 @@ input[type='submit']:hover {
     min-height: 40px;
   }
   header .nav ul {
-    width: 180px;
+    width: 60%;
     padding: 5px 0;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
     border: solid 1px #aaa;
-    background: white url(img/icon-menu.png) no-repeat 10px 11px;
+    background: white url(img/icon-menu.png) no-repeat 10px 14px;
     border-radius: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   }
@@ -405,7 +434,7 @@ input[type='submit']:hover {
     margin: 0 0 5px;
   }
   header .nav ul:hover .active {
-    background: url(img/icon-check.png) no-repeat 10px 7px;
+    background: url(img/icon-check.png) no-repeat 10px 10px;
   }
 
   /* formulaire */

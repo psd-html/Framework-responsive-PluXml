@@ -28,7 +28,7 @@
               
               
             <h2>A propos de l'auteur, <?php $plxShow->artAuthor() ?>:</h2>
-            <?php $plxShow->artAuthorInfos('<div class="author-infos">#art_authorinfos</div>'); ?>
+            <?php $plxShow->artAuthorInfos('<blockquote>#art_authorinfos</blockquote>'); ?>
 
 			<?php include(dirname(__FILE__).'/commentaires.php'); ?>
 

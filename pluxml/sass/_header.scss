@@ -16,7 +16,8 @@ header{
             display: inline-block;
       } 
       a {
-            padding: 3px 12px;
+          font-size: $size * 1.4;  
+          padding: 3px 12px;
             text-decoration: none;
             line-height: 100%;
     } 

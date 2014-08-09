@@ -1,8 +1,11 @@
 /* style du template */
+html {
+  font-size: $size;
+}
 
 body{
     font: $police;
-    font-size: 16px;
+    font-size: 1rem;
     color: $primaire;
 }
 
