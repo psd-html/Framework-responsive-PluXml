@@ -12,14 +12,13 @@ input, textarea{
 label{
     display: inline-block;
     width: 100%;
-    margin-bottom: 10px;
-    color: #ccc;
+    color: $secondaire;
 }
 
 input[type='text'], textarea{
     background-color: #fff;
     background-image: none;
-    border: 1px solid #ccc;
+    border: 1px solid $secondaire;
     
     @include border-radius (4px);
     @include box-shadow (0 1px 1px rgba(0, 0, 0, 0.075) inset);
@@ -45,17 +44,21 @@ input.capcha{
     width: 60px;
 }
 input[type='submit'] {
-    background: $primaire;    
+    
+    
+    -webkit-appearance: none;  // remove shadow in iOS
+    @include border-radius(0);  // remove border-radius in iOS
+
 
     @include border-radius(5px);
+
+    background: $primaire; 
     
     color: #fff;
-
     font-size: 18px;
 
     padding: 10px;
     text-decoration: none;
-   
 }
 input[type='submit']:hover {
     

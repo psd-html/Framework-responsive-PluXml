@@ -81,40 +81,40 @@ span.symbol {
 }
 
 a {
-  font-size: 15.4px;
-  line-height: 16.8px;
+  font-size: 16px;
+  line-height: 19.2px;
   text-decoration: none;
 }
 
 h1, h1 > a {
-  font-size: 28px;
-  line-height: 30.8px;
+  font-size: 35.2px;
+  line-height: 41.6px;
 }
 
 h2 {
-  font-size: 22.4px;
-  line-height: 25.2px;
+  font-size: 25.6px;
+  line-height: 32px;
 }
 
 h3 {
-  font-size: 19.6px;
-  line-height: 22.4px;
+  font-size: 22.4px;
+  line-height: 28.8px;
 }
 
 h5 {
-  font-size: 16.8px;
-  line-height: 19.6px;
+  font-size: 19.2px;
+  line-height: 25.6px;
 }
 
 p {
-  font-size: 15.4px;
-  line-height: 16.8px;
+  font-size: 16px;
+  line-height: 19.2px;
   margin-bottom: 20px;
 }
 
 ul, li, td {
-  font-size: 1.1rem;
-  line-height: 1.5em;
+  font-size: 16px;
+  line-height: 19.2px;
 }
 
 a:link {
@@ -141,12 +141,13 @@ blockquote {
 }
 blockquote p {
   display: inline;
+  font-size: 16px;
 }
 
 blockquote:before {
   content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
+  font-size: 19.2px;
+  line-height: 22.4px;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
@@ -170,7 +171,7 @@ header .nav li {
   display: inline-block;
 }
 header .nav a {
-  font-size: 19.6px;
+  font-size: 19.2px;
   padding: 3px 12px;
   text-decoration: none;
   line-height: 100%;
@@ -178,12 +179,12 @@ header .nav a {
 
 /* style du template */
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
   font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   color: #666666;
 }
 
@@ -223,14 +224,13 @@ input, textarea {
 label {
   display: inline-block;
   width: 100%;
-  margin-bottom: 10px;
-  color: #ccc;
+  color: #cccccc;
 }
 
 input[type='text'], textarea {
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -264,12 +264,18 @@ input.capcha {
 }
 
 input[type='submit'] {
-  background: #666666;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background: #666666;
   color: #fff;
   font-size: 18px;
   padding: 10px;
