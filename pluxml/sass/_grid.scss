@@ -36,6 +36,12 @@ $max-width: 960px!default;
 
 /* responsive */
 
+@media handheld, only screen and (max-width: $wrap) {
+    .wrap{
+        width: 100%
+    }
+}
+
 @media handheld, only screen and (max-width: $max-width) {
 
     

@@ -378,7 +378,12 @@ input[type='submit']:hover {
 }
 
 /* responsive */
-@media handheld, only screen and (max-width: 960px) {
+@media handheld, only screen and (max-width: 1160px) {
+  .wrap {
+    width: 100%;
+  }
+}
+@media handheld, only screen and (max-width: 768px) {
   .wrap {
     width: 100%;
     min-width: 0;
