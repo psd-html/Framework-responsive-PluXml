@@ -1,9 +1,9 @@
 <?php include(dirname(__FILE__).'/header.php'); ?>
 
 <section class="wrap">
-   <article class="bloc-9">
+   <article class="bloc-9" role="article">
       
-          <article role="article" id="static-page-<?php echo $plxShow->staticId(); ?>">
+          <div class="blog" id="static-page-<?php echo $plxShow->staticId(); ?>">
 
             <!-- Titre de l'article -->
             <h1><?php $plxShow->lang('ERROR'); ?></h1>
@@ -14,7 +14,7 @@
                 <?php $plxShow->erreurMessage(); ?>
             </p>
 
-          </article>
+          </div>
           
    </article>
    

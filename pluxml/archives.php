@@ -1,12 +1,12 @@
 <?php include(dirname(__FILE__).'/header.php'); ?>
    
     <section class="wrap">
-       <article class="bloc-9">   
+       <article class="bloc-9" role="article" >   
               
             <!-- création de la boucle pour récuperer les archives du blog -->
             <?php while($plxShow->plxMotor->plxRecord_arts->loop()): ?>    
 
-              <article role="article" class="blog">
+              <div class="blog">
                 
                 <!-- Titre des archives -->
                 <h1><?php $plxShow->artTitle('link'); ?></h1>
@@ -27,7 +27,7 @@
                     <span class="symbol">,</span><?php $plxShow->lang('TAGS') ?> : <?php $plxShow->artTags(); ?>
                 </p>
 
-              </article>
+              </div>
 
            <!-- fin de la boucle -->
            <?php endwhile; ?>

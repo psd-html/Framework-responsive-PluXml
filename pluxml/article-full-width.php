@@ -1,9 +1,9 @@
 <?php include(dirname(__FILE__).'/header.php'); ?>
    
     <section class="wrap">
-       <article class="bloc-12">   
+       <article class="bloc-12" role="article">   
                
-              <article role="article" class="blog">
+              <div class="blog">
                 
                 <!-- Titre de l'article -->
                 <h1><?php $plxShow->artTitle(''); ?></h1>
@@ -24,7 +24,7 @@
                     <span class="symbol">,</span><?php $plxShow->lang('TAGS') ?> : <?php $plxShow->artTags(); ?>
                 </p>
 
-              </article>
+              </div>
               
               
             <h2>A propos de l'auteur, <?php $plxShow->artAuthor() ?>:</h2>
