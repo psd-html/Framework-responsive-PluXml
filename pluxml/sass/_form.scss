@@ -36,11 +36,8 @@ input.capcha{
     width: 60px;
 }
 input[type='submit'] {
-    
-    
     -webkit-appearance: none;  // remove shadow in iOS
     @include border-radius(0);  // remove border-radius in iOS
-
 
     @include border-radius(5px);
 
@@ -51,14 +48,14 @@ input[type='submit'] {
 
     padding: 10px;
     text-decoration: none;
-}
-input[type='submit']:hover {
     
-    padding: 11px;
-    
-    background: none;
-    border: 1px solid $primaire;
-    color: $primaire;
-    
-    cursor: pointer;
+    &:hover {
+        padding: 11px;
+
+        background: none;
+        border: 1px solid $primaire;
+        color: $primaire;
+
+        cursor: pointer;
+    }
 }

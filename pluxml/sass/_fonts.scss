@@ -22,6 +22,22 @@ a   {
     font-size: $size;
     line-height: $size * 1.2;
     text-decoration: none;
+    
+    &:link {
+    color: $primaire;
+    }
+
+    &:visited {
+    color: $primaire;
+    }
+
+    &:hover {
+    color: $primaire;
+    }
+
+    &:active, a:focus {
+    color: $primaire;
+    }
 }
 
 h1, h1>a {
@@ -38,6 +54,10 @@ h3{
     font-size: $size * 1.4;
     line-height: $size * 1.8;
     }
+h4{
+    font-size: $size * 1.2;
+    line-height: $size * 1.6;
+}
 h5{
     font-size: $size * 1.2;
     line-height: $size * 1.6;
@@ -53,22 +73,10 @@ ul,li,td{
     font-size: $size;
     line-height: $size * 1.2;
 } 
+ul ol{
+    list-style-type: value;
+}
 
-a:link {
-    color: $primaire;
-    }
-
-a:visited {
-    color: $primaire;
-    }
-
-a:hover {
-    color: $primaire;
-    }
-
-a:active, a:focus {
-    color: $primaire;
-    }
 blockquote {
     border-left: 10px solid $primaire;
     margin: 1.5em 10px;
@@ -87,3 +95,17 @@ blockquote:before {
     margin-right: 0.25em;
     vertical-align: -0.4em;
     }
+
+pre {
+    background: #EEE;
+    padding: 5px;
+    border-left: 5px solid $primaire;
+}
+th {
+    border-bottom: 2px solid #000;
+    padding: 10px 8px;
+}
+td{
+    border-bottom: 1px solid #ccc;
+    padding: 6px 8px;
+}

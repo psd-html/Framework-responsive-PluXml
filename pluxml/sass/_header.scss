@@ -1,29 +1,28 @@
 /* bloc header */
 
-header{
-    
-     /*@include animate(bounce-in-down, 1s, 500ms);*/
-         
+header{      
    .nav {position: relative;margin: 20px 0;
-      ul li.navigation {
-            display: none
-      } 
        
-      ul {
+        ul li.navigation {
+            display: none
+            } 
+
+        ul {
             margin: 0;padding: 0
-      }
-      li {
+            }
+       
+        li {
             margin: 0 5px 10px 0;
             padding: 0;
             list-style: none;
             display: inline-block;
-      } 
-      a {
-          font-size: $size * 1.2;  
-          padding: 3px 12px;
+            } 
+       
+        a {
+            font-size: $size * 1.2;  
+            padding: 3px 12px;
             text-decoration: none;
             line-height: 100%;
-    } 
-   } 
-    
+            } 
+        }   
 }

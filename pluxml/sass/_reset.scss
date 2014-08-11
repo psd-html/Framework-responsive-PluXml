@@ -29,13 +29,8 @@ body {
 ol, ul {
     list-style: none;
 }
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
+* {
+  @include box-sizing(border-box);
 }
 table {
     border-collapse: collapse;
