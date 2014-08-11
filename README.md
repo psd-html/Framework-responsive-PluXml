@@ -25,18 +25,26 @@ Edition du fichier style.sass
 ```sh
 /* Reset et importation des mixins CSS */
 @import "compass/css3";
-@import "compass/reset";
+@import "reset";
+
+
+/* @include animate(animation-name, animation-duration, animation-delay); */
+/* voir le projet et instruction: https://github.com/simko-io/animated.sass/blob/master/README.md */
+@import "animated";
+
+@include animation(bounce-in-right);
 
 
 /* Largeur, espace entre les blocs et nombre de blocs */
 $wrap: 1160px;
 $gutter: 20px;
 $bloc: 12;
-$max-width: 960px;
-$police: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$max-width: 768px;
+$police: "Helvetica Neue", sans-serif;
+$size: 16px;
 
 $primaire: #666;
-$secondaire: lighten($primaire, 10%);
+$secondaire: #ccc;
 
 
 /* importer les éléments du style */
