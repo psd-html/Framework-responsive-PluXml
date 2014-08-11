@@ -15,7 +15,7 @@ Le dossier contient:
 Version
 ----
 
-1.0
+1.2
 
 
 
