@@ -57,6 +57,6 @@ $secondaire: #ccc;
 @import "grid";
 ```
 
-Maquette visible à cette adresse: http://psd-html.fr/pluxml/
+Maquette visible à cette adresse: http://psdtohtml5.fr
 
 N'hésitez pas à me contacter sur http://psd-html.fr
