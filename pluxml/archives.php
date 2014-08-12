@@ -1,7 +1,7 @@
 <?php include(dirname(__FILE__).'/header.php'); ?>
    
     <section class="wrap">
-       <article class="bloc-9" role="article" >   
+       <article class="bloc-9" role="article">   
               
             <!-- création de la boucle pour récuperer les archives du blog -->
             <?php while($plxShow->plxMotor->plxRecord_arts->loop()): ?>    

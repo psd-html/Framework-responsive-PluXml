@@ -1,7 +1,7 @@
 <?php include(dirname(__FILE__).'/header.php'); ?>
 
 <section class="wrap">
-   <article class="bloc-9" role="article" >
+   <article class="bloc-9" role="article">
       
           <div class="blog" id="static-page-<?php echo $plxShow->staticId(); ?>">
 
