@@ -12,7 +12,7 @@
             <!-- Affichage le contenu de la page statique -->
             <?php $plxShow->staticContent(); ?>
 
-          </blog>
+          </div>
           
    </article>
    
