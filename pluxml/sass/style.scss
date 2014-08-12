@@ -7,7 +7,9 @@
 /* voir le projet et instruction: https://github.com/simko-io/animated.sass/blob/master/README.md */
 @import "animated";
 
-@include animation(bounce-in-right);
+@include animation(bounce-in-right); /* pour le bloc sidebar */
+@include animation(fade-in); /* pour la partie section*/
+@include animation(pulse);
 
 
 /* Largeur, espace entre les blocs et nombre de blocs */

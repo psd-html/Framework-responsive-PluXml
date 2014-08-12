@@ -17,7 +17,12 @@ header{
 /* mise en page des articles du blog avec la class .blog */
 .blog{
     padding: 0 0 30px 0;
+    @include animate(fade-in, .6s, 400ms)
 } 
+
+.rubber{
+    @include animate(pulse, .6s, 600ms) 
+}
 
 /* mise en page du bloc droit avec la class .widget */
 aside {@include animate(bounce-in-right, 1s, 500ms)}
