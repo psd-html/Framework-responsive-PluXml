@@ -6,7 +6,7 @@
               <div class="blog">
                 
                 <!-- Titre de l'article -->
-                <h1><?php $plxShow->artTitle(''); ?></h1>
+                <h2><?php $plxShow->artTitle(''); ?></h2>
 
                 <p>
                     <span class="symbol">U</span><?php $plxShow->lang('WRITTEN_BY'); ?> <?php $plxShow->artAuthor() ?> 
@@ -27,7 +27,7 @@
               </div>
               
               
-            <h2>A propos de l'auteur, <?php $plxShow->artAuthor() ?>:</h2>
+            <h3>A propos de l'auteur, <?php $plxShow->artAuthor() ?>:</h3>
             <?php $plxShow->artAuthorInfos('<blockquote>#art_authorinfos</blockquote>'); ?>
 
 			<?php include(dirname(__FILE__).'/commentaires.php'); ?>

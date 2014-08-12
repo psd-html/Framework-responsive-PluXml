@@ -15,7 +15,7 @@
           <div class="blog" id="post-<?php echo $plxShow->artId(); ?>">
 
             <!-- Titre de l'article -->
-            <h1><?php $plxShow->artTitle('link'); ?></h1>
+            <h2><?php $plxShow->artTitle('link'); ?></h2>
 
             <!-- informations de l'article -->
             <p>

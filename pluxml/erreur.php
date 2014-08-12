@@ -6,7 +6,7 @@
           <div class="blog" id="static-page-<?php echo $plxShow->staticId(); ?>">
 
             <!-- Titre de l'article -->
-            <h1><?php $plxShow->lang('ERROR'); ?></h1>
+            <h2><?php $plxShow->lang('ERROR'); ?></h2>
 
 
             <!-- Affichage le type d'erreur -->

@@ -2,7 +2,7 @@
 
 	<?php if($plxShow->plxMotor->plxRecord_coms): ?>
 
-		<h2><?php echo $plxShow->artNbCom(); ?></h2>
+		<h3><?php echo $plxShow->artNbCom(); ?></h3>
 
 		<?php while($plxShow->plxMotor->plxRecord_coms->loop()): # On boucle sur les commentaires ?>
 
@@ -31,9 +31,9 @@
 
 	<div id="form">
 
-		<h2>
+		<h3>
 			<?php $plxShow->lang('WRITE_A_COMMENT') ?>
-		</h2>
+		</h3>
 
 		<form action="<?php $plxShow->artUrl(); ?>#form" method="post">
 			<fieldset>

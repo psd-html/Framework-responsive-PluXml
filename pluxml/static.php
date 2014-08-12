@@ -6,7 +6,7 @@
           <div class="blog" id="static-page-<?php echo $plxShow->staticId(); ?>">
 
             <!-- Titre de l'article -->
-            <h1><?php $plxShow->staticTitle(); ?></h1>
+            <h2><?php $plxShow->staticTitle(); ?></h2>
 
 
             <!-- Affichage le contenu de la page statique -->

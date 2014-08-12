@@ -9,7 +9,7 @@
               <div class="blog">
                 
                 <!-- Titre des archives -->
-                <h1><?php $plxShow->artTitle('link'); ?></h1>
+                <h2><?php $plxShow->artTitle('link'); ?></h2>
 
                 <p>
                     <span class="symbol">U</span><?php $plxShow->lang('WRITTEN_BY'); ?> <?php $plxShow->artAuthor() ?> 
