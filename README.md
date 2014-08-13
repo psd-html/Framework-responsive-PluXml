@@ -10,7 +10,7 @@ Le dossier contient:
   - Fichier full-width pour la page article et page statique
   - Utlisation de la police Web symbols 
   - Maquette HTML5 et CSS3 validation W3C
-
+  - Mixins Animate
 
 Version
 ----
