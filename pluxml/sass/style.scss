@@ -8,6 +8,7 @@
 @import "animated";
 
 @include animation(bounce-in-right); /* pour le bloc sidebar */
+@include animation(bounce); /* pour le personnage sur la page accueil */
 @include animation(fade-in); /* pour la partie section*/
 
 
