@@ -1,18 +1,20 @@
 <?php if (!defined('PLX_ROOT')) exit; ?>
 
 <!DOCTYPE html>
+<html lang="<?php $plxShow->defaultLang() ?>">
+
 <!--[if lt IE 9]><html class="ie"><![endif]-->
 <!--[if gte IE 9]><!--><html><!--<![endif]-->
 
 
 <head>
 <meta charset="<?php $plxShow->charset('min'); ?>">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
 
 <title><?php $plxShow->pageTitle(); ?></title>
 <?php $plxShow->meta('description') ?>
 <?php $plxShow->meta('keywords') ?>
-<?php $plxShow->meta('author') ?>
 <meta name="author" content="GNANGANI" />
 
     

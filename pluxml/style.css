@@ -1,18 +1,8 @@
 @charset "UTF-8";
 /* Reset et importation des mixins CSS */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, pre, code, fieldset, form, label, legend,
+table {
   margin: 0;
   padding: 0;
   border: 0;
@@ -29,10 +19,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
 }
 
 * {
@@ -137,44 +123,6 @@ input, textarea {
 }
 
 /* pour le bloc sidebar */
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  40% {
-    -webkit-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-
-  60% {
-    -webkit-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-/* pour le personnage sur la page accueil */
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -417,6 +365,12 @@ header .nav a {
 }
 
 /* style de la sidebar*/
+aside ol, aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* style des formualires et des boutons */
 label {
   display: inline-block;
