@@ -1,4 +1,4 @@
-Framework responsive PluXml
+Framework SASS responsive PluXml
 =========
 
 Le framework n'utilise pas de js, moins de 7ko pour le fichier style.css
