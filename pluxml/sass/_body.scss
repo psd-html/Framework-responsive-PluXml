@@ -1,5 +1,4 @@
 /* style du template */
-
 body{
     font: $police;
     font-size: $size;
@@ -12,8 +11,9 @@ header{
 }
 
 /* mise en page du contenu du site */
-
-section{overflow: hidden}
+section{overflow: hidden;
+    .pagination{}
+}
     
 /* mise en page des articles du blog avec la class .blog */
 .blog{

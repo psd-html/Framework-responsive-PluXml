@@ -66,8 +66,6 @@ h6{
     font-size: $size * 1.2;
     line-height: $size * 1.6;
 }
-
-
 p{
     font-size: $size;
     line-height: $size * 1.2;
@@ -81,7 +79,6 @@ ul,li,td{
 ul ol{
     list-style-type: value;
 }
-
 blockquote {
     border-left: 10px solid $primaire;
     margin: 1.5em 10px;
