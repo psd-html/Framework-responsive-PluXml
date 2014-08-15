@@ -4,7 +4,7 @@
        <!-- les catégories --> 
         <h4><?php $plxShow->lang('CATEGORIES'); ?></h4>
         <ul>
-            <?php $plxShow->catList('','<li id="#cat_id"><a class="#cat_status" href="#cat_url" title="#cat_name"><span class="symbol">D</span>#cat_name</a> (#art_nb)</li>'); ?>
+            <?php $plxShow->catList('','<li><a class="#cat_status" href="#cat_url" title="#cat_name"><span class="symbol">D</span>#cat_name</a> (#art_nb)</li>'); ?>
         </ul> 
     </div>
  
@@ -37,7 +37,7 @@
     <!-- les archives -->
         <h4><?php $plxShow->lang('ARCHIVES'); ?></h4>
         <ul>
-            <?php $plxShow->archList('<li id="#archives_id"><a class="#archives_status" href="#archives_url" title="#archives_name">#archives_name</a> (#archives_nbart)</li>'); ?>
+            <?php $plxShow->archList('<li><a class="#archives_status" href="#archives_url" title="#archives_name">#archives_name</a> (#archives_nbart)</li>'); ?>
         </ul>
     </div>
     
