@@ -1,6 +1,6 @@
 <?php include(dirname(__FILE__).'/header.php'); ?>
 
-<section class="wrap">
+<div class="section wrap">
    <article class="bloc-9" role="article">
      
     <p>
@@ -50,6 +50,6 @@
         <?php include(dirname(__FILE__).'/sidebar.php'); ?>
     </aside>
     
-</section>
+</div>
 
 <?php include(dirname(__FILE__).'/footer.php'); ?>

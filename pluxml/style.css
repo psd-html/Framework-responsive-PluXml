@@ -282,7 +282,7 @@ header {
 }
 
 /* mise en page du contenu du site */
-section {
+.section {
   overflow: hidden;
 }
 

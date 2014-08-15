@@ -1,6 +1,6 @@
 <?php include(dirname(__FILE__).'/header.php'); ?>
 
-<section class="wrap">
+<div class="section wrap">
    <article class="bloc-9" role="article">
       
           <div class="blog" id="static-page-<?php echo $plxShow->staticId(); ?>">
@@ -22,6 +22,6 @@
         <?php include(dirname(__FILE__).'/sidebar.php'); ?>
     </aside>
     
-</section>
+</div>
 
 <?php include(dirname(__FILE__).'/footer.php'); ?>
