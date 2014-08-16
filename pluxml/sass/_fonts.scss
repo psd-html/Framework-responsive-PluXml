@@ -22,21 +22,22 @@ a   {
     font-size: $size;
     line-height: $size * 1.2;
     text-decoration: none;
+    color: inherit;
     
     &:link {
-    color: $primaire;
+    color: inherit;
     }
 
     &:visited {
-    color: $primaire;
+    color: inherit;
     }
 
     &:hover {
-    color: $primaire;
+    color: inherit;
     }
 
     &:active, a:focus {
-    color: $primaire;
+    color: inherit;
     }
 }
 h1, h1>a{

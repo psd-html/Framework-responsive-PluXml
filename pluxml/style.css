@@ -171,18 +171,19 @@ a {
   font-size: 16px;
   line-height: 19.2px;
   text-decoration: none;
+  color: inherit;
 }
 a:link {
-  color: #666666;
+  color: inherit;
 }
 a:visited {
-  color: #666666;
+  color: inherit;
 }
 a:hover {
-  color: #666666;
+  color: inherit;
 }
 a:active, a a:focus {
-  color: #666666;
+  color: inherit;
 }
 
 h1, h1 > a {
@@ -305,6 +306,10 @@ header {
   -moz-animation-name: fadeIn;
   -o-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+.comment {
+  padding: 5px 0;
 }
 
 /* mise en page du bloc droit avec la class .widget */

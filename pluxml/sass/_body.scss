@@ -18,9 +18,11 @@ header{
     padding: 0 0 30px 0;
     @include animate(fade-in, .6s, 400ms)
 } 
+.comment{ padding: 5px 0}
 
 /* mise en page du bloc droit avec la class .widget */
 aside {@include animate(bounce-in-right, 1s, 500ms)}
+
 
 .widget{
     padding: 0 0 30px 0;
