@@ -24,7 +24,7 @@ Edition du fichier style.sass
 
 ```sh
 /* Reset et importation des mixins CSS */
-@import "compass/css3";
+@import "compass";
 @import "reset";
 
 
@@ -32,7 +32,8 @@ Edition du fichier style.sass
 /* voir le projet et instruction: https://github.com/simko-io/animated.sass/blob/master/README.md */
 @import "animated";
 
-@include animation(bounce-in-right);
+@include animation(bounce-in-right); /* pour le bloc sidebar */
+@include animation(fade-in); /* pour la partie section*/
 
 
 /* Largeur, espace entre les blocs et nombre de blocs */
@@ -49,8 +50,8 @@ $secondaire: #ccc;
 
 /* importer les éléments du style */
 @import "fonts";
-@import "header";
 @import "body";
+@import "header";
 @import "sidebar";
 @import "form";
 @import "footer";
