@@ -38,7 +38,7 @@
           <!--Title et subTitle -->
            <div class="bloc-4" role="banner">
                 <h1><?php $plxShow->mainTitle('link'); ?></h1>
-                <h2><?php $plxShow->subTitle(); ?></h2>
+                <h3><?php $plxShow->subTitle(); ?></h3>
            </div>
            
            <!--Navigation -->
