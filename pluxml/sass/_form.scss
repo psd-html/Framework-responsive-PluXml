@@ -35,22 +35,22 @@ textarea{
 input.capcha{
     width: 60px;
 }
-input[type='submit'] {
+input[type='submit'], .bt {
     -webkit-appearance: none;  // remove shadow in iOS
     @include border-radius(0);  // remove border-radius in iOS
 
     @include border-radius(5px);
 
     background: $primaire; 
+    border: 1px solid $primaire;
     
     color: #fff;
     font-size: 18px;
 
-    padding: 10px;
+    padding: 11px;
     text-decoration: none;
     
     &:hover {
-        padding: 11px;
 
         background: none;
         border: 1px solid $primaire;

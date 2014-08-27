@@ -424,7 +424,7 @@ input.capcha {
   width: 60px;
 }
 
-input[type='submit'] {
+input[type='submit'], .bt {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -437,13 +437,13 @@ input[type='submit'] {
   -o-border-radius: 5px;
   border-radius: 5px;
   background: #666666;
+  border: 1px solid #666666;
   color: #fff;
   font-size: 18px;
-  padding: 10px;
+  padding: 11px;
   text-decoration: none;
 }
-input[type='submit']:hover {
-  padding: 11px;
+input[type='submit']:hover, .bt:hover {
   background: none;
   border: 1px solid #666666;
   color: #666666;
