@@ -58,6 +58,6 @@ $secondaire: #ccc;
 @import "grid";
 ```
 
-Démo: http://psdtohtml5.fr
+Démo et tutoriel sur http://psdtohtml5.fr
 
 
