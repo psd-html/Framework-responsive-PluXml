@@ -4,7 +4,7 @@
        <!-- les catégories --> 
         <h4><?php $plxShow->lang('CATEGORIES'); ?></h4>
         <ul>
-            <?php $plxShow->catList('','<li><a class="#cat_status" href="#cat_url" title="#cat_name"><span class="symbol">D</span>#cat_name</a> (#art_nb)</li>'); ?>
+            <?php $plxShow->catList('','<li><a class="#cat_status" href="#cat_url" title="#cat_name"><i class="flaticon-folder5"></i>#cat_name</a> (#art_nb)</li>'); ?>
         </ul> 
     </div>
  
@@ -21,7 +21,7 @@
        <!-- la liste des tags -->
         <h4><?php $plxShow->lang('TAGS'); ?></h4>
         <ul>
-            <?php $plxShow->tagList('<li class="tag #tag_size"><a class="#tag_status" href="#tag_url" title="#tag_name"><span class="symbol">,</span>#tag_name</a></li>', 20); ?>
+            <?php $plxShow->tagList('<li class="tag #tag_size"><a class="#tag_status" href="#tag_url" title="#tag_name"> <i class="flaticon-botton4"></i>#tag_name</a></li>', 20); ?>
         </ul> 
     </div>
     
@@ -45,10 +45,10 @@
        <!-- Affichage les flux RSS -->
         <p class="rss">
            <a href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS'); ?>">
-            <span class="symbol">r</span><?php $plxShow->lang('ARTICLES'); ?></a>
+            <i class="flaticon-signal1"></i><?php $plxShow->lang('ARTICLES'); ?></a>
         </p>
         <p class="rss">
             <a href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires'); ?>" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>">
-            <span class="symbol">r</span><?php $plxShow->lang('COMMENTS'); ?></a>
+            <i class="flaticon-signal1"></i><?php $plxShow->lang('COMMENTS'); ?></a>
         </p>  
     </div>

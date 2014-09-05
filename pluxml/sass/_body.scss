@@ -16,9 +16,21 @@ header{
 /* mise en page des articles du blog avec la class .blog */
 .blog{
     padding: 0 0 30px 0;
-    @include animate(fade-in, .6s, 400ms)
+    @include animate(fade-in, .6s, 400ms);
+
 } 
+ i{margin: 0 10px}
 .comment{ padding: 5px 0}
+
+.icon-test{
+    padding: 0;margin: 0;
+    text-align: center;
+    height: 120px;
+    
+    p{font-size: 12px;margin-top: 12px;}
+    span{font-size: 45px;display: block; line-height: 1}
+
+}
 
 /* mise en page du bloc droit avec la class .widget */
 aside {@include animate(bounce-in-right, 1s, 500ms)}

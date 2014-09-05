@@ -21,7 +21,7 @@
 		<?php endwhile; # Fin de la boucle sur les commentaires ?>
 
 		<p>
-		   <span class="symbol">r</span><?php $plxShow->comFeed('rss',$plxShow->artId()); ?>
+		   <i class="flaticon-signal1"></i><?php $plxShow->comFeed('rss',$plxShow->artId()); ?>
 		</p>
 
 
@@ -60,7 +60,7 @@
 				<p>
                 <label for="id_rep">
                     <?php echo $plxShow->lang('ANTISPAM_WARNING') ?> <br>
-                    <span class="symbol">x</span><?php $plxShow->capchaQ(); ?> :
+                    <i class="flaticon-padlock"></i><?php $plxShow->capchaQ(); ?> :
                 </label>
 
 				</p>
@@ -71,7 +71,7 @@
 				<?php endif; ?>
 				
 				<p>
-					<input type="submit" value="<?php $plxShow->lang('SEND') ?>" />
+					<input type="submit"  value="<?php $plxShow->lang('SEND') ?>" />
 				</p>
 			</fieldset>
 		</form>

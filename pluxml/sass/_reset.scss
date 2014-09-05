@@ -1,4 +1,8 @@
 /* RESET */
+* {
+  @include box-sizing(border-box);
+}
+
 html,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a,pre, code, fieldset, form, label, legend,
 table {
@@ -18,9 +22,7 @@ body {
     line-height: 1;
 }
 
-* {
-  @include box-sizing(border-box);
-}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
